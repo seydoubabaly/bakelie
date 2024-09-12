@@ -18,33 +18,30 @@
     <header>
         <!-- place navbar here -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
-            <a class="navbar-brand fw-bold" href="#"> <img class="" src="../image/Meubel House_Logos-05.jpg"
-                    alt="">Furniro</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <a class="navbar-brand fw-bold" href="#"><img src="../image/Meubel House_Logos-05.jpg" alt="Furniro Logo"
+                    class="img-fluid" style="max-width: 50px;"> Furniro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto gap-5">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" id="navbarDropdown">
-                            About
-                        </a>
-
+                        <a class="nav-link" href="./page/shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Contact</a>
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
                     </li>
                 </ul>
-                <div class="icon ">
-                    <i class="ri-user-2-line fs-4 "></i>
+                <div class="d-flex gap-2">
+                    <i class="ri-user-2-line fs-4"></i>
                     <i class="ri-search-line fs-4"></i>
                     <i class="ri-heart-3-line fs-4"></i>
                     <i class="ri-shopping-cart-2-fill fs-4"></i>
@@ -53,213 +50,71 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid " style="background-image: url('./image/comparaison/Rectangle\ 1\ \(1\).jpg'); height: 90vh;   background-size: cover;
-        background-position: center; ">
-          <div class="row">
-            <div class="col-12 col-sm-6 col-lg-2 ">
+        <div class="container-fluid d-flex justify-content-center align-items-center" style="background-image: url('./image/comparaison/Rectangle 1 (2).jpg'); height: 90vh; background-size: cover; background-position: center;">
+            <div class="text-center" style="margin-top: 35vh;">
+                <img src="./image/comparaison/Meubel House_Logos-05.png" alt="" style="height: 70px; width: 80px;">
+                <h1 class="p-3">Product Comparison</h1>
+                <a href="#" class="btn btn-outline-dark">Home <i class="ri-arrow-right-s-line"></i> Card</a>
             </div>
-        
-            <div class="col-6 col-sm-6 col-lg-2 text-center " style=";margin-top: 35vh;height: 20vh; width: 75vh; margin-left:20vh;">
-                <img class=" " style="height: 70px; width: 80px;" src="./image/comparaison/Meubel House_Logos-05.png" alt="">
-              <h1 class="p-3">Product Comparison</h1>
-              <div class="btn p-3">
-                <a href="#" class="btn btn-outline- text-uppercase "  style="  height: 40px;">Home<i class="ri-arrow-right-s-line"></i>Comparison</a>
-
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="container p-3 " style="margin-left: 30vh;">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-2">
-                    <h4>
-                        Go to Product page for more
-                        Products
-                    </h4>
-                    <a href="#" class="btn btn-outline- text-uppercase "> View More</a>
-
-                </div>
-                <div class="col-2">
-                    <div class=" property-card">
-                        <div class="ca">
-                            <img src="./image/comparaison/Group 160.jpg" alt="Property Image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Asgaard Sofa</h5>
-                                <p class="card-text">Rs. 250,000.00</p>
-                                <p class="card-text">4.7</p>
-                            </div>
+                <div class="col-lg-7">
+                    <div class="d-flex justify-content-between p-3" style="background-color: #F9F1E7; border-radius: 5px;">
+                        <p class="mt-3">Product</p>
+                        <p class="mt-3">Price</p>
+                        <p class="mt-3">Quantity</p>
+                        <p class="mt-3">Subtotal</p>
+                    </div>
+                    <div class="mt-4 d-flex align-items-center gap-3">
+                        <img src="./image/card image/Group 146 (1).jpg" alt="" style="width: 100px;">
+                        <div class="d-flex justify-content-between w-100" style="color: #9F9F9F;">
+                            <p class="mt-3">Asgaard sofa</p>
+                            <p class="mt-3">Rs.250,000.00</p>
+                            <p class="mt-3">1</p>
+                            <p class="mt-3">Rs.250,000.00</p>
+                            <i class="ri-delete-bin-7-fill mt-3 fs-5" style="color: #B88E2F;"></i>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class=" property-card">
-                        <div class="">
-                            <img src="./image/comparaison/Cloud sofa three seater + ottoman_1 1.jpg" alt="Property Image" class="card-img-top ">
-                            <div class="card-body mb-4">
-                                <h5 class="card-title">Outdoor Sofa Set </h5>
-                                <p class="card-text">Rs. 224,000.00</p>
-                                <p class="card-text">4.2 145 Review</p>
+                <div class="col-lg-5">
+                    <div class="card p-3" style="background-color: #F9F1E7;">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Cart Totals</h3>
+                            <div class="d-flex justify-content-between mt-5">
+                                <p>Subtotal</p>
+                                <p>Rs.250,000.00</p>
                             </div>
+                            <div class="d-flex justify-content-between mt-4">
+                                <p>Total</p>
+                                <p class="fs-5" style="color: #B88E2F;">Rs.250,000.00</p>
+                            </div>
+                            <a href="#" class="btn btn-outline-dark">Proceed to Checkout</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-3 mt-5 text-center">
-                    <div class="t " style="background-color: rgb(255, 255, 255); height: 40px;width: 100%;" >
-                        <p>Add A Product </p>
-                    </div>
-                   <div class="link text-center "  >
-                    <a href="#" class="btn btn-outline- text-uppercase text-light"  style=" background-color: #B88E2F; height: 40px;"> Choose a Product<i class="ri-arrow-down-s-line"></i></a>
-
-                   </div>
-                </div>
             </div>
         </div>
-        <div class="container py-3 col-8" style="margin-right: 50vh;">
-            <div class="row  p-3  d-flex justify-content-between">
-                <div class="col-4 col--2">
-                    <h4 class="fw-bold">General .</h4>
-                    <p class="">Sales Package</p>
-                    <p>Model Number</p>
-                    <p>Secondary Material</p>
-                    <p>Configuration</p>
-                    <p>Upholstery Material</p>
-                    <p>Upholstery Color</p>
-                </div>
-                <div class="  col-5 col-2 ">
-                    <h6 style="color: #ffffff;">Links</h6>
-
-                    <p>1 sectional sofa</p>
-                    <p>TFCBLIGRBL6SRHS</p>
-                    <p>Solid Wood</p>
-                    <p>L-shaped</p>
-                    <p>Fabric + Cotton</p>
-                    <p>Bright Grey & Lion</p>
-                </div>
-                <div class=" col-5 col-sm-3 mt-4 d-none d-md-block  ">
-                    <h6 style="color: #9F9F9F;">1 Three Seater, 2 Single Seater</h6>
-
-                    <p>DTUBLIGRBL568</p>
-                    <p>Solid Wood</p>
-                    <p> L-shaped</p>
-                    <p>Fabric + Cotton</p>
-                    <p>Bright Grey & Lion</p>
-                </div>
+        <div class="mt-5 p-5 d-flex justify-content-between flex-wrap" style="background-color: #F9F1E7;">
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="ri-trophy-fill" style="font-size: 40px;"></i>
+                <p>High Quality <br> crafted from top materials</p>
             </div>
-        </div>
-        <div class="container py-3 col-8" style="margin-right: 50vh;">
-            <div class="row  p-3  d-flex justify-content-between">
-                <div class="col-4 col--2">
-                    <h4 class="fw-bold">Product</h4>
-                    <p class="">Filling Material</p>
-                    <p>Finish Type </p>
-                    <p>Secondary Material</p>
-                    <p>Adjustable Headrest</p>
-                    <p>Maximum Load <br> Capacity </p>
-                    <p>Origin of Manufacture </p>
-                </div>
-                <div class="  col-5 col-2 mt-4 ">
-                    <h6 style="color: #ffffff;">Links</h6>
-
-                    <p>Foam </p>
-                    <p>Bright Grey & Lion</p>
-                    <p>No</p>
-                    <p>280 KG</p>
-                    <p>India</p>
-                    <p>Bright Grey & Lion</p>
-                </div>
-                <div class=" col-5 col-sm-3 mt-4 d-none d-md-block mt-5 ">
-
-
-                    <p>Matte</p>
-                    <p>Bright Grey & Lion</p>
-                    <p> yes</p>
-                    <p>300 KG</p>
-                    <p>India</p>
-                </div>
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="ri-verified-badge-line" style="font-size: 40px;"></i>
+                <p>High Quality <br> crafted from top materials</p>
             </div>
-        </div>
-        <div class="container py-3 col-8" style="margin-right: 50vh;">
-            <div class="row  p-3  d-flex justify-content-between">
-                <div class="col-4 col--2">
-                    <h4 class="fw-bold">Dimensions</h4>
-                    <p class="">Width </p>
-                    <p>Height </p>
-                    <p> Depth</p>
-                    <p>Weight</p>
-                    <p> Seat Height</p>
-                    <p> Leg Height</p>
-                </div>
-                <div class="  col-5 col-2 ">
-                    <h6 style="color: #ffffff;">Links</h6>
-
-                    <p> 265.32 cm</p>
-                    <p>76 cm</p>
-                    <p>167.76 cm </p>
-                    <p>45 KG</p>
-                    <p> 41.52 cm</p>
-                    <p>5.46 cm</p>
-                </div>
-                <div class=" col-5 col-sm-3 mt-4 d-none d-md-block  ">
-                    <h6 style="color: #9F9F9F;"> 265.32 cm</h6>
-
-                    <p>76 cm</p>
-                    <p> 167.76 cm</p>
-                    <p>65 KG</p>
-                    <p>41.52 cm</p>
-                    <p> 5.46 cm</p>
-                </div>
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="ri-pass-valid-line" style="font-size: 40px;"></i>
+                <p>High Quality <br> crafted from top materials</p>
             </div>
-        </div>
-        <div class="container py-3 col-8" style="margin-right: 50vh;">
-            <div class="row  p-3  d-flex justify-content-between">
-                <div class="col-4 col--2">
-                    <h4 class="fw-bold " style="margin-bottom: 40px;">Warranty Summary</h4>
-                    <p> Warranty Service
-                    </p>
-                    <p style=" margin-top: 30px;">Warranty Service <br>
-                        Type</p>
-                    <p style="margin-top: 36px;"> Covered in Warranty</p>
-                    <p class="mt-5">Not Covered in Warranty </p>
-                    <p class="" style="margin-top: 88px;"> Domestic Warranty </p>
-                </div>
-                <div class="  col-5 col-2 " style="margin-top: 75px;">
-
-
-                    <p>1 Year Manufacturing Warranty </p>
-                    <p>For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com
-                    </p>
-                    <p>Warranty Against
-                        <br> Manufacturing Defect
-                    </p>
-                    <p class="mt-4">The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended
-                        Use And Wear & Tear In The Natural Course Of Product Usage.</p>
-                    <p>1 Year</p>
-
-                </div>
-                <div class=" col-5 col-sm-3  d-none d-md-block  " style="margin-top: 75px; border: 2px solide red;">
-
-
-                    <p>1.2 Year Manufacturing Warranty</p>
-                    <p>For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</p>
-                    <p> Warranty of the product is limited to manufacturing defects only.</p>
-                    <p> The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear
-                        & Tear In The Natural Course Of Product Usage.</p>
-                    <p>3 Months</p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row text-center" style="margin-left: 30vh;">
-                <div class="col-4">
-                     <a href="#" class="btn btn-outline- text-uppercase text-center text-light"  style=" background-color: #B88E2F; height: 40px; width: 30vh;">Add To Cart</a>
-                </div>
-                <div class="col-4">
-                    <a href="#" class="btn btn-outline- text-uppercase text-light"  style=" background-color: #B88E2F; height: 40px; width: 30vh;"> Add To Cart</a>
-
-                </div>
+            <div class="d-flex align-items-center gap-3 mb-3">
+                <i class="ri-customer-service-2-line" style="font-size: 40px;"></i>
+                <p>High Quality <br> crafted from top materials</p>
             </div>
         </div>
     </main>
+
     <footer>
         <!-- place footer here -->
         <div class="container py-3">

@@ -53,163 +53,114 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid " style="background-image: url('./image/comparaison/Rectangle\ 1\ \(1\).jpg'); height: 50vh;   background-size: cover;
-            background-position: center; ">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-2 ">
-                </div>
-
-                <div class="col-6 col-sm-6 col-lg-2 text-center "
-                    style="margin-top: 15vh;height: 20vh; width: 75vh; margin-left:20vh;">
-
-                    <img class=" " style="height: 70px; width: 80px;"
-                        src="./image/comparaison/Meubel House_Logos-05.png" alt="">
-
+        <div class="container-fluid p-0" style="background-image: url('./image/comparaison/Rectangle 1 (1).jpg'); height: 50vh; background-size: cover; background-position: center;">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-12 text-center text-black">
+                    <img src="./image/comparaison/Meubel House_Logos-05.png" alt="" style="height: 70px; width: 80px;">
                     <h1 class="p-3">Checkout</h1>
-                    <div class="btn p-">
-                        <a href="#" class="btn btn-outline- text-uppercase " style="  height: 40px;">Home<i
-                                class="ri-arrow-right-s-line"></i>Checkout</a>
-
-                    </div>
+                    <a href="" class="btn btn-outline-black text-uppercase">Home <i class="ri-arrow-right-s-line"></i> Checkout</a>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <form>
-                        <div class="container mt-5">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">First Name</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp"  style="height: 8vh;">
-                                       
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Last Name </label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp" style="height: 8vh;">
-                                       
-                                    </div>
-                                </div>
+                        <div class="row mb-3">
+                            <div class="col-12 col-sm-6">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" style="height: 8vh;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" style="height: 8vh;">
                             </div>
                         </div>
-
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Company Name (Optional)</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" style="height: 8vh;">
-                        </div>
-                        <select class="form-select mt-5" aria-label="Default select example" style="height: 8vh;">
-                            <option selected>Country / Region</option>
-                            <option value="1">Sri Lanka</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                        <div class="mb-3 mt-5">
-                            <label for="exampleInputPassword1" class="form-label">Street address</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" style="height: 8vh;">
+                            <label for="companyName" class="form-label">Company Name (Optional)</label>
+                            <input type="text" class="form-control" id="companyName" style="height: 8vh;">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Town / City</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" style="height: 8vh;">
-                        </div>
-                     
-                        <select class="form-select mt-5" aria-label="Default select example" style="height: 8vh;">
-                            <option selected>Province</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                        <div class="mb-3 mt-5">
-                            <label for="exampleInputEmail1" class="form-label">ZIP code</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" style="height: 8vh;">
+                            <label for="country" class="form-label">Country / Region</label>
+                            <select class="form-select" id="country" style="height: 8vh;">
+                                <option selected>Choose...</option>
+                                <option value="1">Sri Lanka</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Phone</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" style="height: 8vh;">
+                            <label for="address" class="form-label">Street address</label>
+                            <input type="text" class="form-control" id="address" style="height: 8vh;">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" style="height: 8vh;">
+                            <label for="city" class="form-label">Town / City</label>
+                            <input type="text" class="form-control" id="city" style="height: 8vh;">
                         </div>
-                        <div class="mb-3 mt-5">
-                           
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" style="height: 8vh;" placeholder=" Additional information">
+                        <div class="mb-3">
+                            <label for="province" class="form-label">Province</label>
+                            <select class="form-select" id="province" style="height: 8vh;">
+                                <option selected>Choose...</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="zipCode" class="form-label">ZIP code</label>
+                            <input type="text" class="form-control" id="zipCode" style="height: 8vh;">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" id="phone" style="height: 8vh;">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" style="height: 8vh;">
+                        </div>
+                        <div class="mb-3">
+                            <label for="additionalInfo" class="form-label">Additional information</label>
+                            <input type="text" class="form-control" id="additionalInfo" style="height: 8vh;" placeholder="Optional">
                         </div>
                     </form>
                 </div>
-                <div class="col-6">
-                    <div class="container mt-5 d-flex">
-                        <div class="col-3">
-                            <h1>Product</h1>
-                        </div>
-                        <div class="col-3 text-end" style="margin-left: 36vh;">
-                            <h1>Subtotal</h1>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h1>Product</h1>
+                        <h1>Subtotal</h1>
                     </div>
-                    <div class="container mt-5 d-flex">
-                        <div class="col-3" style="color: #9c9999;">
-                            <p>Asgaard sofa x 1</p>
-                        </div>
-                        <div class="col-3 text-end" style="margin-left: 36vh;">
-                            <p>Rs. 250,000.00</p>
-                        </div>
+                    <div class="d-flex justify-content-between align-items-center mb-4" style="color: #9c9999;">
+                        <p>Asgaard sofa x 1</p>
+                        <p>Rs. 250,000.00</p>
                     </div>
-                    <div class="container mt-5 d-flex">
-                        <div class="col-3">
-                            <p>Subtotal</p>
-                        </div>
-                        <div class="col-3 text-end" style="margin-left: 36vh;color: #afacac;">
-                            <p>Rs. 250,000.00</p>
-                        </div>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <p>Subtotal</p>
+                        <p style="color: #afacac;">Rs. 250,000.00</p>
                     </div>
-                    <div class="container mt-5 d-flex">
-                        <div class="col-3">
-                            <p>Total</p>
-                        </div>
-                        <div class="col-4 text-end" style="margin-left: 30vh;color: #B88E2F;">
-                            <h3>Rs. 250,000.00</h3>
-                        </div>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <p>Total</p>
+                        <h3 style="color: #B88E2F;">Rs. 250,000.00</h3>
                     </div>
                     <hr class="my-4">
-                    <div class=".col-12">
-                        <h4><span class="d-inline-block me-2 " style="font-size: 6vh;">•</span>Direct Bank Transfer
-                        </h4>
+                    <h4>Payment Methods</h4>
+                    <div class="form-check mb-3" style="color: #a09d9d;">
+                        <input type="radio" name="paymentMethod" class="form-check-input" id="bankTransfer">
+                        <label class="form-check-label" for="bankTransfer">Direct Bank Transfer</label>
+                        <p class="fs-6 mt-2" style="color: #c3c1c1;">
+                            Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                        </p>
                     </div>
-                    <p class="fs-5" style="color: #c3c1c1;">
-                        Make your payment directly into our bank account.
-                        Please use your Order ID as the payment reference.
-                        Your order will not be shipped until the funds have cleared in our account.
+                    <div class="form-check mb-3" style="color: #a09d9d;">
+                        <input type="radio" name="paymentMethod" class="form-check-input" id="cashOnDelivery">
+                        <label class="form-check-label" for="cashOnDelivery">Cash On Delivery</label>
+                    </div>
+                    <p class="fs-6 mt-4" style="color: #919191;">
+                        Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span class="fw-bold" style="color: #000000;">privacy policy.</span>
                     </p>
-                    <div class="form-check" style="color: #a09d9d;">
-                        <input type="radio" name="select" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Direct Bank Transfer</label>
-                    </div>
-                    <div class="form-check mt-4" style="color: #a09d9d;">
-                        <input type="radio" name="select" class="form-check-input " id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Cash On Delivery</label>
-                    </div>
-                    <p class="fs-5 mt-4" style="color: #919191;">
-                        Your personal data will be used to support your experience throughout this website,
-                        to manage access to your account, and for other purposes described in our <span class="fw-bold" style="color: #000000;"> privacy
-                            policy.</span>
-                    </p>
-                    <div class=".col-12 text-center mt-5">
-                        <a href="">
-                            <button type="button " class="btn btn-outline-dark" style="height: 8vh;width: 30vh;">Place order</button>
-                        </a>
+                    <div class="text-center mt-4">
+                        <button type="button" class="btn btn-outline-dark" style="height: 8vh;width: 100%;">Place order</button>
                     </div>
                 </div>
-
             </div>
         </div>
     </main>
