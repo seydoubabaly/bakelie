@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <a class="navbar-brand fw-bold" href="#">
+                <img class="" src="../image/Meubel House_Logos-05.jpg" alt="">Furniro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <i class="ri-user-2-line fs-4 me-3"></i>
+                    <i class="ri-search-line fs-4 me-3"></i>
+                    <i class="ri-heart-3-line fs-4 me-3"></i>
+                    <i class="ri-shopping-cart-2-fill fs-4"></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog"
+            id="modalTour">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content rounded-4 shadow">
+                    <div class="modal-body p-5">
+                        <h2 class="fw-bold mb-0">
+                            <font style="vertical-align: inherit;">
+
+                                <font style="vertical-align: inherit;">Quoi de neuf</font>
+                            </font>
+                        </h2>
+
+                        <ul class="d-grid gap-4 my-5 list-unstyled small">
+                            <li class="d-flex gap-4">
+                                <svg class="bi text-body-secondary flex-shrink-0" width="48" height="48">
+                                    <use xlink:href="#grid-fill"></use>
+                                </svg>
+                                <div>
+                                    <h5 class="mb-0">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Vue en grille</font>
+                                        </font>
+                                    </h5>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            Vous n'aimez pas les listes ? Essayez la nouvelle vue en grille.
+                                        </font>
+                                    </font>
+                                </div>
+                            </li>
+                            <li class="d-flex gap-4">
+                                <svg class="bi text-warning flex-shrink-0" width="48" height="48">
+                                    <use xlink:href="#bookmark-star"></use>
+                                </svg>
+                                <div>
+                                    <h5 class="mb-0">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Signets</font>
+                                        </font>
+                                    </h5>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            Enregistrez les éléments que vous aimez pour y accéder facilement plus tard.
+                                        </font>
+                                    </font>
+                                </div>
+                            </li>
+                            <li class="d-flex gap-4">
+                                <svg class="bi text-primary flex-shrink-0" width="48" height="48">
+                                    <use xlink:href="#film"></use>
+                                </svg>
+                                <div>
+                                    <h5 class="mb-0">
+                                        <font style="vertical-align: inherit;">
+                                            <font style="vertical-align: inherit;">Vidéos intégrées</font>
+                                        </font>
+                                    </h5>
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">
+                                            Partagez des vidéos où que vous alliez.
+                                        </font>
+                                    </font>
+                                </div>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Super, merci !</font>
+                            </font>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-light py-3">
+        <!-- place footer here -->
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h4 class="fw-bold">Funiro.</h4>
+                    <p class="text-muted">400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0">
+                    <h6 class="text-muted">Links</h6>
+                    <p class="mb-0"><a href="#">Home</a></p>
+                    <p class="mb-0"><a href="#">Shop</a></p>
+                    <p class="mb-0"><a href="#">About</a></p>
+                    <p class="mb-0"><a href="#">Contact</a></p>
+                </div>
+                <div class="col-md-3 mb-3 mb-md-0 d-none d-md-block">
+                    <h6 class="text-muted">Help</h6>
+                    <p class="mb-0"><a href="#">Payment Options</a></p>
+                    <p class="mb-0"><a href="#">Returns</a></p>
+                    <p class="mb-0"><a href="#">Privacy Policies</a></p>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <h4>Newsletter</h4>
+                    <p class="text-muted">Enter Your Email Address</p>
+                    <hr>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center text-muted">
+                &copy; 2023 Furino. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
